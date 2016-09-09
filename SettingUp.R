@@ -9,3 +9,7 @@ access_token <-'1881863071-VvzIUOjqfjEqTMVpj0K3dpKeUjkKvFsaZ8XQfC3'
 access_secret <- 'YaWns4J19AqbHmd8gjnaqzBmEdb7Aolo2j11U1j3Ucdc1'
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
+
+#to access tweets use searchTwitter function
+#for example, following fn gives 10 recent twitts about LFC in english language
+LFC_tweets <- searchTwitter("LFC", n = 10, lang ="en") 
