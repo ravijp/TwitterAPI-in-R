@@ -8,7 +8,10 @@ consumer_secret <- '9qkFWhLvwoJMDNeNXWTA7bJWvpPsSIYJFs6EoPOcps653os58b'
 access_token <-'1881863071-VvzIUOjqfjEqTMVpj0K3dpKeUjkKvFsaZ8XQfC3'
 access_secret <- 'YaWns4J19AqbHmd8gjnaqzBmEdb7Aolo2j11U1j3Ucdc1'
 
-require(c("twitteR", "RCurl", "tm", "wordcloud"))
+require("twitteR")
+require("RCurl")
+require("tm")
+require(wordcloud)
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
